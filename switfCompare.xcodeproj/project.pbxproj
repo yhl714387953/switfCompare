@@ -14,6 +14,12 @@
 		FD4DA94C1A39227900D286A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4DA94B1A39227900D286A2 /* Images.xcassets */; };
 		FD4DA94F1A39227900D286A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4DA94D1A39227900D286A2 /* LaunchScreen.xib */; };
 		FD4DA95B1A39227900D286A2 /* switfCompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4DA95A1A39227900D286A2 /* switfCompareTests.swift */; };
+		FD4DA9651A39474400D286A2 /* Chunchun.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4DA9641A39474400D286A2 /* Chunchun.swift */; };
+		FD4DA9681A39483100D286A2 /* ChunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4DA9661A39483100D286A2 /* ChunCell.swift */; };
+		FD4DA9691A39483100D286A2 /* ChunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4DA9671A39483100D286A2 /* ChunCell.xib */; };
+		FD4DA96D1A39634700D286A2 /* HLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DA96C1A39634700D286A2 /* HLView.m */; };
+		FD4DA96F1A3968E700D286A2 /* logo100_100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4DA96E1A3968E700D286A2 /* logo100_100@2x.png */; };
+		FDFC25771A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC25761A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,15 @@
 		FD4DA9541A39227900D286A2 /* switfCompareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switfCompareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4DA9591A39227900D286A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4DA95A1A39227900D286A2 /* switfCompareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switfCompareTests.swift; sourceTree = "<group>"; };
+		FD4DA9641A39474400D286A2 /* Chunchun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chunchun.swift; sourceTree = "<group>"; };
+		FD4DA9661A39483100D286A2 /* ChunCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChunCell.swift; sourceTree = "<group>"; };
+		FD4DA9671A39483100D286A2 /* ChunCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChunCell.xib; sourceTree = "<group>"; };
+		FD4DA96A1A39634700D286A2 /* switfCompare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "switfCompare-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD4DA96B1A39634700D286A2 /* HLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLView.h; sourceTree = "<group>"; };
+		FD4DA96C1A39634700D286A2 /* HLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLView.m; sourceTree = "<group>"; };
+		FD4DA96E1A3968E700D286A2 /* logo100_100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo100_100@2x.png"; sourceTree = "<group>"; };
+		FDFC25751A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		FDFC25761A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +94,21 @@
 		FD4DA93E1A39227900D286A2 /* switfCompare */ = {
 			isa = PBXGroup;
 			children = (
+				FD4DA96E1A3968E700D286A2 /* logo100_100@2x.png */,
 				FD4DA9411A39227900D286A2 /* AppDelegate.swift */,
 				FD4DA9461A39227900D286A2 /* ViewController.swift */,
+				FD4DA9641A39474400D286A2 /* Chunchun.swift */,
+				FD4DA9661A39483100D286A2 /* ChunCell.swift */,
+				FD4DA9671A39483100D286A2 /* ChunCell.xib */,
 				FD4DA9481A39227900D286A2 /* Main.storyboard */,
+				FD4DA96B1A39634700D286A2 /* HLView.h */,
+				FD4DA96C1A39634700D286A2 /* HLView.m */,
+				FDFC25741A46BF520093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum */,
 				FD4DA94B1A39227900D286A2 /* Images.xcassets */,
 				FD4DA94D1A39227900D286A2 /* LaunchScreen.xib */,
 				FD4DA9431A39227900D286A2 /* switfCompare.xcdatamodeld */,
 				FD4DA93F1A39227900D286A2 /* Supporting Files */,
+				FD4DA96A1A39634700D286A2 /* switfCompare-Bridging-Header.h */,
 			);
 			path = switfCompare;
 			sourceTree = "<group>";
@@ -113,6 +136,15 @@
 				FD4DA9591A39227900D286A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDFC25741A46BF520093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC25751A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				FDFC25761A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+			);
+			name = "ALAssetsLibrary+CustomPhotoAlbum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +230,8 @@
 				FD4DA94A1A39227900D286A2 /* Main.storyboard in Resources */,
 				FD4DA94F1A39227900D286A2 /* LaunchScreen.xib in Resources */,
 				FD4DA94C1A39227900D286A2 /* Images.xcassets in Resources */,
+				FD4DA9691A39483100D286A2 /* ChunCell.xib in Resources */,
+				FD4DA96F1A3968E700D286A2 /* logo100_100@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFC25771A46BF6C0093B1B3 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				FD4DA9471A39227900D286A2 /* ViewController.swift in Sources */,
+				FD4DA9651A39474400D286A2 /* Chunchun.swift in Sources */,
+				FD4DA96D1A39634700D286A2 /* HLView.m in Sources */,
+				FD4DA9681A39483100D286A2 /* ChunCell.swift in Sources */,
 				FD4DA9421A39227900D286A2 /* AppDelegate.swift in Sources */,
 				FD4DA9451A39227900D286A2 /* switfCompare.xcdatamodeld in Sources */,
 			);
@@ -340,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = switfCompare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "switfCompare/switfCompare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +391,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = switfCompare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "switfCompare/switfCompare-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +452,7 @@
 				FD4DA9601A39227900D286A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4DA9611A39227900D286A2 /* Build configuration list for PBXNativeTarget "switfCompareTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +461,7 @@
 				FD4DA9631A39227900D286A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
